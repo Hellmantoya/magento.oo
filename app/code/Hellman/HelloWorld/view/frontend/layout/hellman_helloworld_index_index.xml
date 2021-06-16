@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block name="hellman_helloworld.index.index" class="Magento\Framework\View\Element\Text">
+            <action method="setText">
+            <argument name="text" xsi:type="string">Hello World!</argument>
+            </action>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
